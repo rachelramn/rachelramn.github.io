@@ -1,0 +1,133 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(252, 244, 233);
+    color: rgb(7, 26, 59);
+    margin: auto;
+    max-width: 1000px;
+    font-size: 120%;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    padding: 0pt;
+    margin: 10pt;
+    margin-bottom: -13px;
+}
+
+img {
+    border: 10px;
+    border-style: double;
+    border-color:rgb(98, 35, 16);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+    margin-top: 3px;
+}
+nav {
+    padding: 10pt;
+    background-color: rgb(98, 35, 16);
+    padding: 1%;
+    border-width: thick;
+    border-style: solid;
+    border-color:rgb(7, 26, 59);
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 7px;
+}
+
+nav li {
+    list-style: none;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+a, a:link{
+    color: rgb(252, 244, 233);
+    padding: 10px;
+    font-size: 120%;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(232, 187, 245);
+  }
+  a:hover {
+    color: rgb(7, 26, 59);
+    background-color: rgb(252, 244, 233);
+  }
+  a:active {
+    color: rgb(66, 119, 198);
+  }
+.bullet {
+    list-style-type: square;
+}
+section {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    padding: 10pt;
+}
+h2 {
+    font-size: 200%;
+    text-align: center;
+    padding:4pt;
+    margin: 0pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    background-color: rgb(7, 26, 59);
+    color:rgb(252, 244, 233);
+}
+h3 {
+    margin-bottom: -13px;
+}
+.container {
+    display: grid;
+    grid-template-columns: [first] 50% [line2] 50%;
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    justify-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    body {
+        font-size: 90%
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 80%;
+        padding: 0px;
+        margin: 0px;
+        line-height: 20px;
+    }
+    a, a:link{
+        color: rgb(247, 229, 203);
+        padding: 14px;
+        font-size: 120%;
+        text-decoration: none;
+      }
+      a:visited {
+        color: rgb(232, 187, 245);
+      }
+      a:hover {
+        color: rgb(7, 26, 59);
+        background-color: transparent;
+      }
+      a:active {
+        color: rgb(255, 255, 255);
+      }
+    .container {
+        display: block;
+    }
+}
