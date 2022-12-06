@@ -1,8 +1,7 @@
 html {
-    @import url('https://fonts.googleapis.com/
-    css2?family=Roboto:ital,wght@1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-    font-family:"Roboto","Helvetica", "Verdana", sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(252, 244, 233);
     color: rgb(7, 26, 59);
     margin: auto;
@@ -11,6 +10,7 @@ html {
 }
 
 h1 {
+    font-family: "Roboto Slab","Arial", sans-serif;
     font-size: 300%;
     text-align: center;
     padding: 0pt;
